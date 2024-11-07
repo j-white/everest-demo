@@ -9,7 +9,8 @@ services:
       - 1883:1883
 
   manager:
-    image: ghcr.io/j-white/everest-demo/manager:${TAG}
+    platform: linux/amd64
+    image: ghcr.io/everest/everest-demo/manager:${TAG}
     deploy:
       resources:
         limits:

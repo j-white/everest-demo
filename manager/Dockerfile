@@ -1,4 +1,4 @@
-FROM --platform=linux/x86_64 ghcr.io/everest/build-kit-alpine@sha256:7494bd6624aee3f882b4f1edbc589879e1d6d0ccc2c58f3f5c87ac1838ccd1de
+FROM ghcr.io/jwhite/build-kit-alpine@sha256:bc6d0de1fa60a798f3c2d398b417773adbbe2a0a580f70f89602d3cdd3b148ee
 
 ARG EVEREST_VERSION=2024.3.0
 ENV EVEREST_VERSION=${EVEREST_VERSION}
