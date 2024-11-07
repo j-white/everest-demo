@@ -1,4 +1,4 @@
-FROM ghcr.io/jwhite/build-kit-alpine@sha256:bc6d0de1fa60a798f3c2d398b417773adbbe2a0a580f70f89602d3cdd3b148ee
+FROM ghcr.io/j-white/build-kit-alpine:main@sha256:94e4e4bee696432c07a9f620b16a926c698f8283101f2f100aeed90e14921fa2
 
 ARG EVEREST_VERSION=2024.3.0
 ENV EVEREST_VERSION=${EVEREST_VERSION}
